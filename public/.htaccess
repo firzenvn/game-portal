@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # handle Teasers
+    RewriteCond %{HTTP_HOST} ^(.*)\.maxgate\.vn
+    RewriteRule ^teaser(.*)\.html$ /media/game-tpl/%1/teasers/teaser$1.php [L,NC]
+
+    # handle Landings
+    RewriteCond %{HTTP_HOST} ^(.*)\.maxgate\.vn
+    RewriteRule ^landing(.*)$ /media/game-tpl/%1/landings/landing$1.php [L,NC]
+
+    # handle Vips
+    RewriteCond %{HTTP_HOST} ^(.*)\.maxgate\.vn
+    RewriteRule ^vip(.*)$ /media/game-tpl/%1/vip/vip$1.php [L,NC]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+</IfModule>

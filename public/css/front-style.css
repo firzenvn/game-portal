@@ -1,0 +1,451 @@
+body {
+    background-color: #f8fafa !important;
+}
+.container {
+    max-width: 960px;
+}
+.nopadding {
+    padding: 0 !important;
+}
+.nomargin {
+    margin: 0 !important;
+}
+.col-lg-five {
+    width: 20%;
+    float: left;
+}
+header {
+    background: url(/images/header_bg.jpg) repeat-x;
+}
+header .top-nav {
+    height: 71px;
+}
+header .top-nav .logo {
+    margin-top: 20px;
+}
+header .top-nav .gamelist {
+    text-transform: uppercase;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    background: url(/images/icon_list.png) no-repeat center right;
+}
+header .top-nav .gamelist a {
+    padding-bottom: 26px;
+    color: #6c6c6c;
+}
+header .top-nav .gamelist a:hover {
+    border-bottom: 3px solid #0075cd;
+    text-decoration: none;
+    color: #0064af;
+}
+header .top-nav ul {
+    text-transform: uppercase;
+    padding-left: 32px !important;
+}
+header .top-nav ul li {
+    padding-top: 22px;
+}
+header .top-nav ul li a {
+    padding-bottom: 26px;
+    color: #6c6c6c;
+}
+header .top-nav ul li a:hover {
+    border-bottom: 3px solid #0075cd;
+    text-decoration: none;
+    color: #0064af;
+}
+header .top-nav .user {
+    margin-top: 22px;
+    padding-left: 0;
+}
+header .top-nav .user a {
+    color: #6c6c6c;
+    padding: 4px 2px;
+    font-size: 0.9em;
+}
+header .top-nav .user a:hover {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* End header*/
+section.slider {
+    background: url(/images/slider_bg.jpg) repeat-x;
+    height: 287px;
+    /*End event*/
+}
+section.slider .container {
+    background: url(/images/primary-bar_line.png) no-repeat bottom left;
+    padding-bottom: 20px;
+}
+section.slider .banner {
+    margin-top: 20px;
+    height: 246px;
+    position: relative;
+}
+section.slider .banner > img {
+    left: 10px;
+    position: absolute;
+}
+section.slider .banner .caption-bg {
+    background: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    left: auto;
+    bottom: 0;
+    position: absolute;
+    height: 71px;
+    z-index: 1;
+    width: 700px;
+}
+section.slider .banner .caption-info {
+    left: 10px;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
+section.slider .banner .caption-info h3 {
+    margin: 4px auto 4px 0;
+    font-size: 1.3em;
+}
+section.slider .banner .caption-info h3 a {
+    color: #ff9900;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section.slider .banner .caption-info p {
+    margin: 0 auto 4px 0;
+    color: #f5f4f4;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+section.slider .banner .choingay {
+    right: 10px;
+    bottom: 21px;
+    position: absolute;
+    z-index: 2;
+}
+section.slider .banner .choingay img:hover {
+    box-shadow: -0.5px 0.5px #ffffff;
+}
+section.slider aside.event {
+    background: #ff9900;
+    height: 246px;
+    border: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding: 0;
+}
+section.slider aside.event nav.event-nav h3 {
+    font-size: 1.2em;
+    padding: 7px 42px;
+    margin: 5px 0 6px 8px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: url(/images/icon_event.png) no-repeat left center;
+}
+section.slider aside.event section.event-list {
+    background: #f8fafa;
+    margin: 0 4px;
+    height: 173px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+section.slider aside.event section.event-list article {
+    padding: 4px;
+    border-bottom: 1px dashed #c8c9c9;
+    margin: 0 10px;
+}
+section.slider aside.event section.event-list article:last-child {
+    border-bottom: none;
+}
+section.slider aside.event section.event-list article a {
+    color: #6c6c6c;
+    font-size: 0.9em;
+}
+section.slider aside.event .readmore {
+    background: url(/images/readmore_bg.png) no-repeat center;
+    height: 25px;
+    margin: 0 4px 4px 4px;
+    padding-top: 2px;
+}
+section.slider aside.event .readmore a {
+    color: #6c6c6c;
+    font-size: 0.9em;
+}
+main {
+    background: #f8fafa;
+    /* End .content*/
+    /* End .sidebar */
+}
+main section.content {
+    /* End .primary*/
+    /* End .gamehot*/
+}
+main section.content section.primary {
+    /* End .primary-nav*/
+}
+main section.content section.primary nav.primary-nav {
+    height: 43px;
+    border-bottom: 1px solid #dbdbdb;
+}
+main section.content section.primary nav.primary-nav h3 {
+    font-size: 1.2em;
+    background: url(/images/icon_home.png) no-repeat center left;
+    padding: 5px 30px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+main section.content section.primary nav.primary-nav .page {
+    margin-top: 11px;
+    margin-left: 0;
+    padding-left: 0;
+}
+main section.content section.primary nav.primary-nav .page a {
+    border: 1px solid #dbdbdb;
+    color: #979999;
+    padding: 0 9px;
+    margin-left: -5px;
+}
+main section.content section.primary nav.primary-nav .page a:hover {
+    background: none repeat scroll 0 0 #f3f4f4;
+    color: #000;
+    text-decoration: none;
+}
+main section.content section.primary section.primary-content article.primary-item {
+    background: url(/images/game-intro_bg.png) no-repeat bottom center;
+    height: 202px;
+    width: 220px;
+    border: 1px solid #dce6e4;
+    margin: 0 20px 20px 0px;
+}
+main section.content section.primary section.primary-content article.primary-item:nth-child(3),
+main section.content section.primary section.primary-content article.primary-item:last-child {
+    margin-right: 0;
+}
+main section.content section.primary section.primary-content article.primary-item img {
+    height: 136px;
+    width: 209px;
+    margin: 4px 4px;
+}
+main section.content section.primary section.primary-content article.primary-item .gameintro {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+main section.content section.primary section.primary-content article.primary-item .gameintro a {
+    color: #000000;
+}
+main section.content section.primary section.primary-content article.primary-item .gameintro p {
+    font-size: 0.8em;
+    color: #797979;
+}
+main section.content section.gamehot {
+    height: auto;
+}
+main section.content section.gamehot nav.gamehot-nav {
+    border: 1px solid #dbdbdb;
+    background: #ecf2f1;
+}
+main section.content section.gamehot nav.gamehot-nav h3 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    background: url(/images/icon_hot.png) no-repeat center left;
+    padding: 7px 0 7px 40px;
+    margin-top: 6px;
+    color: #ff0000;
+}
+main section.content section.gamehot nav.gamehot-nav ul li {
+    padding: 16px 10px 14px 10px;
+}
+main section.content section.gamehot nav.gamehot-nav ul li a {
+    text-transform: uppercase;
+    color: #6c6c6c;
+}
+main section.content section.gamehot nav.gamehot-nav ul li.active {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+main section.content section.gamehot nav.gamehot-nav ul li.active a {
+    color: #ff0000;
+}
+main section.content section.gamehot section.gamehot-content {
+    border: 1px solid #dbdbdb;
+    border-top: none !important;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column {
+    border-bottom: 1px solid #dbdbdb;
+    height: 157px;
+    margin-top: 19px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column:first-child {
+    margin-top: 16px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column:last-child {
+    height: 171px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item {
+    width: 137px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item:first-child {
+    margin-left: 10px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item img {
+    border: 5px solid #ecf2f1;
+    height: 90px;
+    width: 132px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item .gameintro {
+    margin-top: 10px;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item .gameintro a {
+    color: #000000;
+}
+main section.content section.gamehot section.gamehot-content .gamehot-column article.gamehot-item .gameintro p {
+    font-size: 0.8em;
+    color: #797979;
+}
+main aside.sidebar {
+    /* End server*/
+}
+main aside.sidebar section.server {
+    background: #ffffff;
+    height: 260px;
+    border: 1px solid #dbdbdb;
+    margin-top: 11px;
+}
+main aside.sidebar section.server nav.sidebar-nav {
+    margin: 1px;
+}
+main aside.sidebar section.server nav.sidebar-nav h3 {
+    background: url(/images/icon_server.jpg) no-repeat left center;
+    font-size: 1.2em;
+    padding: 8px 0;
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+main aside.sidebar section.server section.server-list table {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: none;
+    font-size: 0.9em;
+}
+main aside.sidebar section.server section.server-list table td,
+main aside.sidebar section.server section.server-list table th {
+    border-left: 1px solid #ededed;
+    border-top: none !important;
+    padding: 0;
+}
+main aside.sidebar section.server section.server-list table td:first-child,
+main aside.sidebar section.server section.server-list table th:first-child {
+    width: 60%;
+}
+main aside.sidebar section.server section.server-list table td:first-child a,
+main aside.sidebar section.server section.server-list table th:first-child a,
+main aside.sidebar section.server section.server-list table td:first-child p,
+main aside.sidebar section.server section.server-list table th:first-child p {
+    margin-left: 10px;
+}
+main aside.sidebar section.server section.server-list table td:nth-child(2),
+main aside.sidebar section.server section.server-list table th:nth-child(2) {
+    width: 20%;
+}
+main aside.sidebar section.server section.server-list table a {
+    color: #ff9900;
+}
+main aside.sidebar section.server section.server-list table thead {
+    height: 27px;
+    border-bottom: none;
+    background: #ecf2f1;
+}
+main aside.sidebar section.server section.server-list table thead p {
+    margin-top: 5px;
+}
+main aside.sidebar section.server section.server-list table tbody {
+    color: #6c6c6c;
+}
+main aside.sidebar section.server section.server-list table tbody > tr {
+    height: 56px;
+}
+main aside.sidebar section.server section.server-list table tbody > tr:nth-child(2) {
+    background: #f7f7f7;
+}
+main aside.sidebar section.server section.server-list table tbody p {
+    margin: 4px auto 4px 4px;
+}
+main aside.sidebar section.server .readmore {
+    background: url(/images/readmore_bg.png) no-repeat center;
+    height: 27px;
+    margin-bottom: 0;
+    padding-top: 4px;
+}
+main aside.sidebar section.server .readmore a {
+    color: #6c6c6c;
+    font-size: 0.9em;
+}
+main aside.sidebar section.topgame {
+    height: auto;
+    margin-top: 20px;
+}
+main aside.sidebar section.topgame nav.topgame-nav h3 {
+    background: url(/images/icon_topgame.png) no-repeat top left;
+    font-size: 1.2em;
+    padding: 17px 0 26px 58px;
+    color: #0284e5;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+main aside.sidebar section.topgame section.topgame-list article.topgame-item {
+    border-bottom: 1px dashed #c8c9c9;
+    font-size: 0.9em;
+    height: 29px;
+    padding-top: 5px;
+}
+main aside.sidebar section.topgame section.topgame-list article.topgame-item:first-child a,
+main aside.sidebar section.topgame section.topgame-list article.topgame-item:nth-child(2) a,
+main aside.sidebar section.topgame section.topgame-list article.topgame-item:nth-child(3) a {
+    color: #ff0000;
+}
+main aside.sidebar section.topgame section.topgame-list article.topgame-item a {
+    color: #000000;
+}
+main aside.sidebar section.topgame section.topgame-list article.topgame-item .download {
+    color: #9d9d9d;
+}
+main aside.sidebar div.fb-like-box {
+    height: 230px;
+    margin-top: 22px;
+    border: 1px solid #dbdbdb;
+}
+main aside.sidebar section.sidebar-banner {
+    margin-top: 18px;
+}
+/* End main */
+footer {
+    background: url(/images/footer_bg.png) repeat-x;
+    height: 135px;
+    margin-top: 26px;
+}
+footer .info {
+    height: 96px;
+}
+footer .info p {
+    color: #898a8a;
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+footer .info p:first-child {
+    margin-top: 6px;
+}
+footer .info p a {
+    color: #898a8a;
+}
+footer .license {
+    font-size: 0.9em;
+    margin-top: 6px;
+}

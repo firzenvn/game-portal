@@ -1,0 +1,92 @@
+.emotions {
+    width: 14px;
+    height: 14px;
+    background-image: url("emotions/fb/fb-emotions.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1px 1px 0;
+}
+
+.emo-angel {
+    background-position: -1px -7664px;
+}
+
+.emo-confused {
+    background-position: -1px -7698px;
+}
+
+.emo-devil {
+    background-position: -1px -7749px;
+}
+
+.emo-grin {
+    background-position: -1px -7817px;
+}
+
+.emo-heart {
+    background-position: -1px -7851px;
+}
+
+.emo-kiss {
+    background-position: -1px -7885px;
+}
+
+.emo-smile {
+    background-position: -1px -7987px;
+}
+
+.emo-sunglasses {
+    background-position: -1px -8021px;
+}
+
+.emo-unsure {
+    background-position: -1px -8051px
+}
+
+.emo-wink {
+    background-position: -1px -8089px;
+}
+
+.emo-cry {
+    background-position: -1px -7732px;
+}
+
+.emo-glasses {
+    background-position: -1px -7800px;
+}
+
+.emo-grumpy {
+    background-position: -1px -7834px;
+}
+
+.emo-tongue {
+    background-position: -1px -8038px;
+}
+
+.emo-frown {
+    background-position: -1px -7766px;
+}
+
+.emo-pacman {
+    background-position: -1px -7902px;
+}
+
+.emo-colonthree{
+    background-position: -1px -7681px;
+}
+
+.emo-kiki{
+    background-position: -1px -7867px;
+}
+
+.emo-squint{
+    background-position: -1px -8004px;
+}
+
+.emo-like{
+    background-position: -1px -14px;
+    width: 16px;
+    height: 16px;
+}
+

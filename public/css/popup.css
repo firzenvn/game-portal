@@ -1,0 +1,282 @@
+#popup-dangky {
+  font: 13px/20px Tahoma, Arial, Verdana, sans-serif !important;
+}
+#popup-dangky .modal-dialog {
+  margin-top: 100px;
+  width: 372px;
+  height: 348px;
+}
+#popup-dangky .modal-dialog .modal-content {
+  border-radius: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+#popup-dangky .modal-dialog .modal-content .modal-header {
+  background: #ff9900;
+  text-align: center;
+  height: 57px;
+  padding: 0;
+  position: relative;
+}
+#popup-dangky .modal-dialog .modal-content .modal-header h4 {
+  padding-top: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+#popup-dangky .modal-dialog .modal-content .modal-header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 1 !important;
+  filter: alpha(opacity=20) !important;
+  background: #ffb84d !important;
+  padding: 2px !important;
+}
+#popup-dangky .modal-dialog .modal-content .modal-header button span {
+  color: #8c652a;
+}
+#popup-dangky .modal-dialog .modal-content .modal-header button span:hover {
+  color: #000000;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body {
+  padding: 20px 20px 10px 20px;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body input {
+  padding-left: 30px;
+  border-radius: 0 !important;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body input.user {
+  background: url(/images/icon_user.png) no-repeat 5px 3px;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body input.pass {
+  background: url(/images/icon_pass.png) no-repeat 5px 3px;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body label {
+  font-weight: normal;
+  margin-bottom: 0;
+  color: #000000;
+}
+#popup-dangky .modal-dialog .modal-content .modal-body label a {
+  color: #4255ba;
+  white-space: normal;
+  text-decoration: underline;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer {
+  margin: 0;
+  border-top: 1px solid #d1d1d1;
+  background: -webkit-linear-gradient(#e6e6e6, #fefefe);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e6e6e6, #fefefe);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e6e6e6, #fefefe);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e6e6e6, #fefefe);
+  /* Standard syntax */
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer #buttonRegister {
+  width: 90px;
+  background: #96d4fb;
+  text-transform: uppercase;
+  color: #4879a6;
+  border: 1px solid #72ade3;
+  font-weight: bold;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer #buttonRegister:hover {
+  background: #72ade3;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social {
+  overflow: hidden;
+  text-align: right;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social span {
+  display: block;
+  margin-top: 7px !important;
+  width: 87px;
+  float: left;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social a {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  text-indent: -9999px;
+  margin: 0 10px;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social a.fb-icon {
+  background: url(/images/icon-fb.png) no-repeat;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social a.gp-icon {
+  background: url(/images/icon-gplus.png) no-repeat;
+}
+#popup-dangky .modal-dialog .modal-content .modal-footer .register-social a.yh-icon {
+  background: url(/images/icon-yahoo.png) no-repeat;
+  margin-right: 0 !important;
+}
+#popup-dangnhap {
+  font: 13px/20px Tahoma, Arial, Verdana, sans-serif !important;
+}
+#popup-dangnhap .modal-dialog {
+  margin-top: 100px;
+  width: 372px;
+  height: 348px;
+}
+#popup-dangnhap .modal-dialog .modal-content {
+  border-radius: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-header {
+  background: #ff9900;
+  text-align: center;
+  height: 57px;
+  padding: 0;
+  position: relative;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-header h4 {
+  padding-top: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 1 !important;
+  filter: alpha(opacity=20) !important;
+  background: #ffb84d !important;
+  padding: 2px !important;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-header button span {
+  color: #8c652a;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-header button span:hover {
+  color: #000000;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body {
+  overflow: hidden;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body input {
+  padding-left: 30px;
+  border-radius: 0!important;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body input.user {
+  background: url(/images/icon_user.png) no-repeat 5px 3px;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body input.pass {
+  background: url(/images/icon_pass.png) no-repeat 5px 3px;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body label {
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #6c6c6c;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body #buttonLogin {
+  width: 100px;
+  font-size: 13px;
+  background: #96d4fb;
+  text-transform: uppercase;
+  color: #4879a6;
+  border: 1px solid #72ade3;
+  font-weight: bold;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body #buttonLogin:hover {
+  background: #72ade3;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body .to-register {
+  padding-top: 8px;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body .to-register a {
+  color: #7681c9;
+  text-decoration: underline;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body .forgetpass {
+  padding-top: 8px;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-body .forgetpass a {
+  color: #7681c9;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer {
+  margin: 0;
+  padding: 10px 20px 15px 20px;
+  text-align: left;
+  border-top: 1px solid #d1d1d1;
+  background: -webkit-linear-gradient(#e6e6e6, #fefefe);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e6e6e6, #fefefe);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e6e6e6, #fefefe);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e6e6e6, #fefefe);
+  /* Standard syntax */
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer p {
+  display: block;
+  margin-top: 0 !important;
+  color: #6c6c6c;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer a {
+  display: block;
+  float: left;
+  height: 36px;
+  margin: 0 25px 0 0;
+  padding: 8px 0 5px 40px;
+  color: #8e8e8e;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer a:hover {
+  text-decoration: none;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer a.fb-icon {
+  background: url(/images/icon-fb.png) no-repeat;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer a.gp-icon {
+  background: url(/images/icon-gplus.png) no-repeat;
+}
+#popup-dangnhap .modal-dialog .modal-content .modal-footer a.yh-icon {
+  background: url(/images/icon-yahoo.png) no-repeat;
+  margin-right: 0 !important;
+}
+#popup-napxu {
+  font: 13px/20px Tahoma, Arial, Verdana, sans-serif !important;
+}
+#popup-napxu .modal-dialog {
+  width: 785px !important;
+}
+#popup-napxu .modal-dialog .modal-header {
+  background: #ff9900;
+  text-align: center;
+  height: 57px;
+  padding: 0;
+  position: relative;
+}
+#popup-napxu .modal-dialog .modal-header h4 {
+  padding-top: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+#popup-napxu .modal-dialog .modal-header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 1 !important;
+  filter: alpha(opacity=20) !important;
+  background: #ffb84d !important;
+  padding: 2px !important;
+}
+#popup-napxu .modal-dialog .modal-header button span {
+  color: #8c652a;
+}
+#popup-napxu .modal-dialog .modal-header button span:hover {
+  color: #000000;
+}
+#popup-napxu .modal-dialog .modal-body {
+  padding: 0;
+}
